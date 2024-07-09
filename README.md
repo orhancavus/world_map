@@ -1,50 +1,37 @@
-# Project Name
+# World Map Plotter with Cities
 
-A brief description of your Python project.
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-    - [Usage](#usage)
-
-## Introduction
-
-Intro ..
+This Python program generates a world map using Matplotlib and Cartopy, highlighting cities with scatter points and using hatch patterns to depict landmasses. It's designed to be customizable and suitable for visualizing geographical data.
 
 ## Features
 
-List the key features of your project. You can use bullet points for this section.
+- **Map Projection**: Uses Plate Carrée projection for a world map view.
+- **Cartographic Features**: Includes coastlines and borders.
+- **City Markers**: Plots several major cities with customizable markers.
+- **Land Hatch Patterns**: Land areas are depicted with randomized hatch patterns.
+- **Customization**: Background color, title, and plot layout can be easily adjusted.
 
-- Feature 1
-- Feature 2
-- Feature 3
+## Requirements
 
-## Getting Started
-
-Explain ..
-
-### Prerequisites
-
-Prereq ..
-
-### Installation
-
-Installation ..
-
-```bash
-pip install ..
-```
+- Python 3.x
+- Matplotlib
+- Cartopy
 
 ## Usage
 
-Usage ..
+1. Ensure Python and required libraries are installed (`matplotlib`, `cartopy`).
+2. Run the script `app_dots.py`.
+3. A PNG file (`world_map_<random_number>.png`) will be generated in the `maps/` directory, depicting the world map with cities.
+
+## Example
 
 ```bash
-import your_project
-
-# Your code here
+python app_dots.py
 ```
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+This README provides a concise overview of what the program does, its features, how to use it, and mentions the licensing information. Adjust paths and details as necessary based on your actual implementation.
