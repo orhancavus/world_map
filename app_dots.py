@@ -48,8 +48,11 @@ for geometry in reader.geometries():
         facecolor="none",
         edgecolor="orange",
         linewidth=0.1,
-        hatch="..",
+        hatch=".",
     )
+
+# Add points for London and Paris
+
 
 # Set the background color to black
 ax.set_facecolor("black")
@@ -63,6 +66,7 @@ plt.title("World Map", color="white", fontsize=20)
 
 # Adjust layout and display the map
 plt.tight_layout()
+
 fn = random.randint(1, 1000000)
 plt.savefig(f"maps/world_map_{fn}.png", dpi=300)
 plt.show()
