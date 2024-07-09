@@ -1,37 +1,27 @@
 import matplotlib.pyplot as plt
-from mpl_toolkits.basemap import Basemap
-import numpy as np
+import cartopy.crs as ccrs
+import cartopy.feature as cfeature
 
-# Create a figure and axis
-fig, ax = plt.subplots(figsize=(12, 6), facecolor="black")
+# Create a new figure and axis with a specific projection
+fig, ax = plt.subplots(figsize=(15, 10), subplot_kw={"projection": ccrs.PlateCarree()})
 
-# Create a Basemap instance
-m = Basemap(projection="mill", lon_0=0, resolution="c", ax=ax)
+# Add coastlines and borders
+ax.add_feature(cfeature.COASTLINE, edgecolor="gray", linewidth=0.5)
+ax.add_feature(cfeature.BORDERS, edgecolor="gray", linewidth=0.5)
 
-# Draw coastlines and countries, but in black to match the background
-m.drawcoastlines(color="black")
-m.drawcountries(color="black")
+# Add land feature (continents) in white
+ax.add_feature(cfeature.LAND, facecolor="white", edgecolor="gray")
 
-# Generate latitude and longitude values for the dots
-num_dots = 2000
-lats = np.random.uniform(-90, 90, num_dots)
-lons = np.random.uniform(-180, 180, num_dots)
+# Set the background color to black
+ax.set_facecolor("black")
+fig.patch.set_facecolor("black")
 
-# Convert latitudes and longitudes to map coordinates
-x, y = m(lons, lats)
-
-# Plot the dots
-m.scatter(x, y, color="white", marker="o", s=1, alpha=0.8)
-
-# Hide the axis
+# Remove axes
 ax.axis("off")
 
-# Save and show the plot
-plt.savefig(
-    "world_map_dots.png",
-    dpi=300,
-    bbox_inches="tight",
-    pad_inches=0,
-    facecolor=fig.get_facecolor(),
-)
+# Set the title
+plt.title("World Map", color="white", fontsize=20)
+
+# Adjust layout and display the map
+plt.tight_layout()
 plt.show()
