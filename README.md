@@ -1,5 +1,8 @@
 # World Map Plotter with Cities
 
+Author : Orhan Chavus
+Date   : 10.06.2024
+
 This Python program generates a world map using Matplotlib and Cartopy, highlighting cities with scatter points and using hatch patterns to depict landmasses. It's designed to be customizable and suitable for visualizing geographical data.
 
 ## Features
