@@ -98,6 +98,7 @@ def plot_world_map():
     fn = random.randint(1, 1000000)
 
     # Set the position and size of the image
+    # The position and size of the image as tuple (left, right, bottom, top) in data coordinates.
     ax.set_extent([-180.0, 180.0, -65.0, 90.0], ccrs.PlateCarree())  # Adjusted extent
     plt.savefig(f"maps/world_map_{fn}.png", dpi=300)
     # Show the plot
