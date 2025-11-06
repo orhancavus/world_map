@@ -6,9 +6,9 @@ This project generates world maps using the Matplotlib and Cartopy Python librar
 
 ## Dependencies
 
-*   Python 3.x
-*   Matplotlib
-*   Cartopy
+* Python 3.x
+* Matplotlib
+* Cartopy
 
 ## Running the project
 

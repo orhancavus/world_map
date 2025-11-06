@@ -1,9 +1,114 @@
 {
-    "London": [-0.1276474, 51.5073219],
-    "Paris": [2.3522219, 48.856614],
-    "Berlin": [13.4105300, 52.5243700],
-    "New York": [-74.0059740, 40.7127770],
-    "Sofia": [23.3218670, 42.6975100],
-    "Istanbul": [28.9745630, 41.0128610],
-    "Tokyo": [139.6917060, 35.6894870]
+    "Cairo": {
+        "continent": "Africa",
+        "coords": [
+            31.2357,
+            30.0444
+        ]
+    },
+    "Istanbul": {
+        "continent": "Asia",
+        "coords": [
+            28.9784,
+            41.0082
+        ]
+    },
+    "London": {
+        "continent": "Europe",
+        "coords": [
+            -0.1278,
+            51.5074
+        ]
+    },
+    "Paris": {
+        "continent": "Europe",
+        "coords": [
+            2.3522,
+            48.8566
+        ]
+    },
+    "Berlin": {
+        "continent": "Europe",
+        "coords": [
+            13.4050,
+            52.5200
+        ]
+    },
+    "Madrid": {
+        "continent": "Europe",
+        "coords": [
+            -3.7038,
+            40.4168
+        ]
+    },
+    "Rome": {
+        "continent": "Europe",
+        "coords": [
+            12.4964,
+            41.9028
+        ]
+    },
+    "Moscow": {
+        "continent": "Europe",
+        "coords": [
+            37.6173,
+            55.7558
+        ]
+    },
+    "Kyiv": {
+        "continent": "Europe",
+        "coords": [
+            30.5234,
+            50.4501
+        ]
+    },
+    "Amsterdam": {
+        "continent": "Europe",
+        "coords": [
+            4.8952,
+            52.3702
+        ]
+    },
+    "Brussels": {
+        "continent": "Europe",
+        "coords": [
+            4.3517,
+            50.8503
+        ]
+    },
+    "Athens": {
+        "continent": "Europe",
+        "coords": [
+            23.7275,
+            37.9838
+        ]
+    },
+    "New York": {
+        "continent": "North America",
+        "coords": [
+            -74.0060,
+            40.7128
+        ]
+    },
+    "Los Angeles": {
+        "continent": "North America",
+        "coords": [
+            -118.2437,
+            34.0522
+        ]
+    },
+    "Montreal": {
+        "continent": "North America",
+        "coords": [
+            -73.5673,
+            45.5017
+        ]
+    },
+    "Vancouver": {
+        "continent": "North America",
+        "coords": [
+            -123.1207,
+            49.2827
+        ]
+    }
 }

@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import matplotlib.pyplot as plt
 import cartopy.crs as ccrs
 import cartopy.feature as cfeature
@@ -101,7 +102,9 @@ def plot_world_map(cities, continent_colors):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate a world map with cities.")
-    parser.add_argument("cities_file", type=str, help="Path to the JSON file containing city data.")
+    parser.add_argument(
+        "cities_file", type=str, help="Path to the JSON file containing city data."
+    )
     args = parser.parse_args()
 
     with open(args.cities_file, "r") as f:
@@ -113,7 +116,7 @@ if __name__ == "__main__":
         "Africa": "green",
         "North America": "yellow",
         "South America": "purple",
-        "Oceania": "orange"
+        "Oceania": "orange",
     }
 
     plot_world_map(cities, continent_colors)
