@@ -22,7 +22,7 @@ This Python program generates a world map using Matplotlib and Cartopy, highligh
 ## Usage
 
 1. Ensure Python and required libraries are installed (`matplotlib`, `cartopy`).
-2. Run the script `app_dots.py`.
+2. Run the script `world_map_dots.py`.
 3. A PNG file (`world_map_<random_number>.png`) will be generated in the `maps/` directory, depicting the world map with cities.
 
 ## Example
