@@ -1,0 +1,242 @@
+{
+    "Cairo": {
+        "continent": "Africa",
+        "coords": [31.2357, 30.0444]
+    },
+    "Lagos": {
+        "continent": "Africa",
+        "coords": [3.3792, 6.5244]
+    },
+    "Kinshasa": {
+        "continent": "Africa",
+        "coords": [15.2663, -4.4419]
+    },
+    "Johannesburg": {
+        "continent": "Africa",
+        "coords": [28.0473, -26.2041]
+    },
+    "Nairobi": {
+        "continent": "Africa",
+        "coords": [36.8219, -1.2921]
+    },
+    "Addis Ababa": {
+        "continent": "Africa",
+        "coords": [38.7578, 9.0054]
+    },
+    "Casablanca": {
+        "continent": "Africa",
+        "coords": [-7.5898, 33.5731]
+    },
+    "Algiers": {
+        "continent": "Africa",
+        "coords": [3.0588, 36.7762]
+    },
+    "Accra": {
+        "continent": "Africa",
+        "coords": [-0.1869, 5.6037]
+    },
+    "Cape Town": {
+        "continent": "Africa",
+        "coords": [18.4241, -33.9249]
+    },
+    "Tokyo": {
+        "continent": "Asia",
+        "coords": [139.6917, 35.6895]
+    },
+    "Delhi": {
+        "continent": "Asia",
+        "coords": [77.2090, 28.6139]
+    },
+    "Shanghai": {
+        "continent": "Asia",
+        "coords": [121.4737, 31.2304]
+    },
+    "Mumbai": {
+        "continent": "Asia",
+        "coords": [72.8777, 19.0760]
+    },
+    "Beijing": {
+        "continent": "Asia",
+        "coords": [116.4074, 39.9042]
+    },
+    "Dhaka": {
+        "continent": "Asia",
+        "coords": [90.4125, 23.8103]
+    },
+    "Osaka": {
+        "continent": "Asia",
+        "coords": [135.5022, 34.6937]
+    },
+    "Karachi": {
+        "continent": "Asia",
+        "coords": [67.0099, 24.8607]
+    },
+    "Chongqing": {
+        "continent": "Asia",
+        "coords": [106.5516, 29.5630]
+    },
+    "Istanbul": {
+        "continent": "Asia",
+        "coords": [28.9784, 41.0082]
+    },
+    "London": {
+        "continent": "Europe",
+        "coords": [-0.1278, 51.5074]
+    },
+    "Paris": {
+        "continent": "Europe",
+        "coords": [2.3522, 48.8566]
+    },
+    "Berlin": {
+        "continent": "Europe",
+        "coords": [13.4050, 52.5200]
+    },
+    "Madrid": {
+        "continent": "Europe",
+        "coords": [-3.7038, 40.4168]
+    },
+    "Rome": {
+        "continent": "Europe",
+        "coords": [12.4964, 41.9028]
+    },
+    "Moscow": {
+        "continent": "Europe",
+        "coords": [37.6173, 55.7558]
+    },
+    "Kyiv": {
+        "continent": "Europe",
+        "coords": [30.5234, 50.4501]
+    },
+    "Amsterdam": {
+        "continent": "Europe",
+        "coords": [4.8952, 52.3702]
+    },
+    "Brussels": {
+        "continent": "Europe",
+        "coords": [4.3517, 50.8503]
+    },
+    "Athens": {
+        "continent": "Europe",
+        "coords": [23.7275, 37.9838]
+    },
+    "New York": {
+        "continent": "North America",
+        "coords": [-74.0060, 40.7128]
+    },
+    "Mexico City": {
+        "continent": "North America",
+        "coords": [-99.1332, 19.4326]
+    },
+    "Los Angeles": {
+        "continent": "North America",
+        "coords": [-118.2437, 34.0522]
+    },
+    "Chicago": {
+        "continent": "North America",
+        "coords": [-87.6298, 41.8781]
+    },
+    "Toronto": {
+        "continent": "North America",
+        "coords": [-79.3832, 43.6532]
+    },
+    "Houston": {
+        "continent": "North America",
+        "coords": [-95.3698, 29.7604]
+    },
+    "Havana": {
+        "continent": "North America",
+        "coords": [-82.3666, 23.1136]
+    },
+    "Santo Domingo": {
+        "continent": "North America",
+        "coords": [-69.9312, 18.4861]
+    },
+    "Montreal": {
+        "continent": "North America",
+        "coords": [-73.5673, 45.5017]
+    },
+    "Vancouver": {
+        "continent": "North America",
+        "coords": [-123.1207, 49.2827]
+    },
+    "Sao Paulo": {
+        "continent": "South America",
+        "coords": [-46.6333, -23.5505]
+    },
+    "Buenos Aires": {
+        "continent": "South America",
+        "coords": [-58.3816, -34.6037]
+    },
+    "Rio de Janeiro": {
+        "continent": "South America",
+        "coords": [-43.1729, -22.9068]
+    },
+    "Bogota": {
+        "continent": "South America",
+        "coords": [-74.0721, 4.7110]
+    },
+    "Lima": {
+        "continent": "South America",
+        "coords": [-77.0428, -12.0464]
+    },
+    "Santiago": {
+        "continent": "South America",
+        "coords": [-70.6693, -33.4489]
+    },
+    "Caracas": {
+        "continent": "South America",
+        "coords": [-66.9036, 10.4806]
+    },
+    "Quito": {
+        "continent": "South America",
+        "coords": [-78.4678, -0.1807]
+    },
+    "Montevideo": {
+        "continent": "South America",
+        "coords": [-56.1645, -34.9011]
+    },
+    "Asuncion": {
+        "continent": "South America",
+        "coords": [-57.5759, -25.2637]
+    },
+    "Sydney": {
+        "continent": "Oceania",
+        "coords": [151.2093, -33.8688]
+    },
+    "Melbourne": {
+        "continent": "Oceania",
+        "coords": [144.9631, -37.8136]
+    },
+    "Brisbane": {
+        "continent": "Oceania",
+        "coords": [153.0251, -27.4698]
+    },
+    "Perth": {
+        "continent": "Oceania",
+        "coords": [115.8605, -31.9505]
+    },
+    "Auckland": {
+        "continent": "Oceania",
+        "coords": [174.7633, -36.8485]
+    },
+    "Adelaide": {
+        "continent": "Oceania",
+        "coords": [138.6007, -34.9285]
+    },
+    "Gold Coast": {
+        "continent": "Oceania",
+        "coords": [153.4000, -28.0167]
+    },
+    "Canberra": {
+        "continent": "Oceania",
+        "coords": [149.1300, -35.2820]
+    },
+    "Wellington": {
+        "continent": "Oceania",
+        "coords": [174.7762, -41.2865]
+    },
+    "Christchurch": {
+        "continent": "Oceania",
+        "coords": [172.6362, -43.5321]
+    }
+}

@@ -7,7 +7,7 @@ import json
 import argparse
 
 
-def plot_world_map(cities):
+def plot_world_map(cities, continent_colors):
     # Define colors for land hatch patterns
     colors = [
         "blue",
@@ -60,11 +60,14 @@ def plot_world_map(cities):
         )
 
     # Plot cities on the map
-    for city, coords in cities.items():
+    for city, data in cities.items():
+        continent = data["continent"]
+        coords = data["coords"]
+        color = continent_colors.get(continent, "white")
         ax.scatter(
             coords[0],
             coords[1],
-            color="silver",
+            color=color,
             s=100,
             transform=ccrs.PlateCarree(),
             zorder=10,
@@ -104,4 +107,13 @@ if __name__ == "__main__":
     with open(args.cities_file, "r") as f:
         cities = json.load(f)
 
-    plot_world_map(cities)
+    continent_colors = {
+        "Asia": "red",
+        "Europe": "blue",
+        "Africa": "green",
+        "North America": "yellow",
+        "South America": "purple",
+        "Oceania": "orange"
+    }
+
+    plot_world_map(cities, continent_colors)
