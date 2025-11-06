@@ -3,9 +3,11 @@ import cartopy.crs as ccrs
 import cartopy.feature as cfeature
 import cartopy.io.shapereader as shpreader
 import random
+import json
+import argparse
 
 
-def plot_world_map():
+def plot_world_map(cities):
     # Define colors for land hatch patterns
     colors = [
         "blue",
@@ -57,17 +59,6 @@ def plot_world_map():
             alpha=0.7,
         )
 
-    # Define city locations
-    cities = {
-        "London": (-0.1276474, 51.5073219),
-        "Paris": (2.3522219, 48.856614),
-        "Berlin": (13.4105300, 52.5243700),
-        "New York": (-74.0059740, 40.7127770),
-        "Sofia": (23.3218670, 42.6975100),
-        "Istanbul": (28.9745630, 41.0128610),
-        "Tokyo": (139.6917060, 35.6894870),
-    }
-
     # Plot cities on the map
     for city, coords in cities.items():
         ax.scatter(
@@ -105,5 +96,12 @@ def plot_world_map():
     plt.show()
 
 
-# Call the function to generate the map
-plot_world_map()
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Generate a world map with cities.")
+    parser.add_argument("cities_file", type=str, help="Path to the JSON file containing city data.")
+    args = parser.parse_args()
+
+    with open(args.cities_file, "r") as f:
+        cities = json.load(f)
+
+    plot_world_map(cities)
